@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jan Seva PAN Portal - Form 93 & 49A Facilitation</title>
+    <meta name="description" content="Online PAN Card application portal (Form 49A / Form 93) with auto document compression, WhatsApp submission, reference receipt generator, status tracking, and Seva Kendra operator dashboard." />
+    <meta property="og:title" content="Jan Seva PAN Portal - Form 93 & 49A Facilitation" />
+    <meta property="og:description" content="Online PAN Card application portal (Form 49A / Form 93) with auto document compression, WhatsApp submission, reference receipt generator, status tracking, and Seva Kendra operator dashboard." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased min-h-screen selection:bg-amber-100 selection:text-amber-900">
+    <div id="root"></div>
+
+    <!-- Hidden form for Netlify Form detection -->
+    <form name="pan-form93" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="id" />
+      <input type="text" name="name" />
+      <input type="text" name="father_name" />
+      <input type="text" name="dob" />
+      <input type="text" name="gender" />
+      <input type="text" name="aadhaar" />
+      <input type="text" name="mobile" />
+      <input type="email" name="email" />
+      <input type="text" name="address" />
+      <input type="text" name="card_format" />
+    </form>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

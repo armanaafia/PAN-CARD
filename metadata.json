@@ -1,0 +1,8 @@
+{
+  "name": "Jan Seva PAN Portal - Form 93 & 49A Facilitation",
+  "description": "Online PAN Card application portal (Form 49A / Form 93) with auto document compression, WhatsApp submission, reference receipt generator, status tracking, and Seva Kendra operator dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
